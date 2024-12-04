@@ -1,0 +1,104 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px; /* Limit the width of the app */
+  margin: 20px auto; /* Center the app */
+  text-align: center;
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Padding for inner spacing */
+}
+
+.nav-buttons {
+  margin-bottom: 20px;
+}
+
+.nav-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.nav-buttons button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.note-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Stack notes vertically */
+  align-items: center; /* Center the notes */
+}
+
+.note {
+  width: 100%; /* Full width */
+  max-width: 600px; /* Limit max width of notes */
+  border: 1px solid #ddd; /* Lighter border */
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Slightly gray background */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s; /* Animation effect */
+}
+
+.note:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.create-note {
+  margin: 20px 0;
+}
+
+.create-note form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements */
+}
+
+textarea {
+  width: 100%; /* Full width */
+  max-width: 600px; /* Limit max width of textarea */
+  height: 100px; /* Fixed height */
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd; /* Border */
+  border-radius: 5px; /* Rounded corners */
+  resize: none; /* Disable resize */
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #28a745; /* Success color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+  margin-left: 20px;
+  margin-top:20px;
+}
+
+button:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+
+.note p {
+  margin: 5px 0; /* Add space between paragraphs */
+  color: #555; /* Slightly lighter text color */
+}
